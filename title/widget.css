@@ -1,0 +1,31 @@
+* {
+  font-family: '{{fontFamily}}', cursive;
+  font-size: {{fontSize}}px;
+  -webkit-text-stroke: {{fontStrokeWidth}}px {{fontStrokeColor}};
+}
+
+.marquee {
+  width: 400px;
+  overflow: hidden;
+  color: {{fontColor}};
+  white-space: nowrap;
+}
+
+.marquee p {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  padding-left: 100%;
+  margin-top: -20px;
+  animation: scrollleft 15s linear infinite;
+  padding-top: 6px;
+}
+
+@keyframes scrollleft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

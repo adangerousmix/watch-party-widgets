@@ -1,0 +1,7 @@
+{
+    "tmdbapikey": {
+        "type": "password",
+        "label": "TMDB API Key:",
+        "value": ""
+    }
+}

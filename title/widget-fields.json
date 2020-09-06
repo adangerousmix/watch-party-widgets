@@ -1,0 +1,28 @@
+{
+    "fontFamily": {
+        "type": "googleFont",
+        "label": "Font Family",
+        "value": "Boogaloo"
+    },
+    "fontSize": {
+        "type": "number",
+        "label": "Font Size",
+        "value": 80,
+        "step": 1
+    },
+    "fontColor": {
+        "type": "colorpicker",
+        "label": "Font Color",
+        "value": "#FFFFFF"
+    },
+    "fontStrokeWidth": {
+        "type": "number",
+        "label": "Font Stroke Width",
+        "value": "5"
+    },
+    "fontStrokeColor": {
+        "type": "colorpicker",
+        "label": "Font Stroke Color",
+        "value": "#000000"
+    }
+}
