@@ -14,7 +14,7 @@ For each widget, add a new custom widget to StreamElements and then copy the cor
 
 <h3>Twitch Chat Commands</h3>
 <p>Only broadcasters have the permissions to execute the watch party commands.</p>
-<table>
+<table class="table-auto">
     <thead>
         <tr>
             <th>Command</th>
@@ -23,6 +23,26 @@ For each widget, add a new custom widget to StreamElements and then copy the cor
         </tr>
     </thead>
     <tbody>
+        <tr>
+            <td>!settitle [name] - [year]<br>!settitle [name] - [year] - S[season_number]:E[episode_number]</td>
+            <td>
+                <p>This command is used to set your Twitch title, but it will also set the title and poster for the show.</p>
+            </td>
+            <td>
+                <pre>!settitle Batman - 1989</pre>
+                <pre>!settitle Scrubs - 2005 - S1:E1</pre>
+            </td>
+        </tr>
+        <tr>
+            <td>!wptitle [name] - [year]<br>!wptitle [name] - [year] - S[season_number]:E[episode_number]</td>
+            <td>
+                <p>This command will set the title and poster for the show. It will not change the Twitch title.</p>
+            </td>
+            <td>
+                <pre>!wptitle Batman - 1989</pre>
+                <pre>!wptitle Scrubs - 2005 - S1:E1</pre>
+            </td>
+        </tr>
         <tr>
             <td>!wpreset</td>
             <td>
