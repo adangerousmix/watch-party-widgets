@@ -1,6 +1,6 @@
-# Watch Party Widgets for StreamElements
+# Twitch Watch Party Widgets for StreamElements
 
-The Watch Party Widgets include a timer, poster and title. They are designed to help you run a watch party using the Twitch Watch Party feature or your own. Use any combination of the widgets for your overlay.
+The Twitch Watch Party Widgets includes a timer, poster and title. They are designed to help you run a watch party using the Twitch Watch Party feature or your own. Use any combination of the widgets for your overlay.
 
 _Note: The poster widget requires an API key for <a href="https://www.themoviedb.org/">https://www.themoviedb.org/</a>._
 
