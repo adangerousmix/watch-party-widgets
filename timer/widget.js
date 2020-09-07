@@ -44,7 +44,7 @@ window.addEventListener('onEventReceived', (obj) => {
 function setTime() {
   ++count;
 
-  if (count == 10800) {
+  if (count == 21600) {
       clearInterval(timer);
   }
 

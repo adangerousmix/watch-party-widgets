@@ -12,7 +12,7 @@ For each widget, add a new custom widget to StreamElements and then copy the cor
 
 ## Twitch Chat Commands
 
-<p>Only broadcasters have the permissions to execute the watch party commands.</p>
+<p>Only broadcasters have the permissions to execute the watch party commands. The " - " (spaces included) is very important for passing along a movie's title and year or a tv show's title, year, and episode information.</p>
 <table class="table-auto">
     <thead>
         <tr>
@@ -25,7 +25,7 @@ For each widget, add a new custom widget to StreamElements and then copy the cor
         <tr>
             <td>!settitle [name] - [year]<br>!settitle [name] - [year] - S[season_number]:E[episode_number]</td>
             <td>
-                <p>This command is used to set your Twitch title, but it will also set the title and poster for the show.</p>
+                <p>This command is used to set your Twitch title, but it will also set the title and poster for the show. The " - " (spaces included) is very important for passing along a movie's title and year or a tv show's title, year, and episode information.</p>
             </td>
             <td>
                 <pre>!settitle Batman - 1989</pre>
@@ -35,7 +35,7 @@ For each widget, add a new custom widget to StreamElements and then copy the cor
         <tr>
             <td>!wptitle [name] - [year]<br>!wptitle [name] - [year] - S[season_number]:E[episode_number]</td>
             <td>
-                <p>This command will set the title and poster for the show. It will not change the Twitch title.</p>
+                <p>This command will set the title and poster for the show. It will not change the Twitch title. The " - " (spaces included) is very important for passing along a movie's title and year or a tv show's title, year, and episode information.</p>
             </td>
             <td>
                 <pre>!wptitle Batman - 1989</pre>
