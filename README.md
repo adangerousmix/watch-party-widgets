@@ -12,7 +12,6 @@ For each widget, add a new custom widget to StreamElements and then copy the cor
 
 ## Twitch Chat Commands
 
-<h3>Twitch Chat Commands</h3>
 <p>Only broadcasters have the permissions to execute the watch party commands.</p>
 <table class="table-auto">
     <thead>
